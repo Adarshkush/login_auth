@@ -8,11 +8,12 @@
 </head>
 <body>
     <div class="main">
-        <form class="box" >
+        <form onsubmit= "return validate()" action="success.html" class="box" >
             <h1>Login Form</h1>
             <input type="email" name="" id="username" placeholder="Enter your email">
             <input type="password" name="" id="password" placeholder="Enter password">
-            <input type="Submit" id="btn" value="Submit" onclick="validate()">
+            <button id="btn" >Submit</button>
+           
         </form>
     </div>
 </body>
