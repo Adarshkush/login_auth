@@ -24,8 +24,8 @@ body{
     padding: 20px;
 }
 #tologin{
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color: black;
+    background-color: white;
     padding: 5px;
 }
