@@ -5,9 +5,10 @@ function validate()
 if (username=="admin@login.com" && password=="welcome")
 {
     alert("Login Success");
-    location.href= "success.html"
+    return true;
 }
 else{
     alert("Invalid username or password");
+    return false;
 }
 }
